@@ -15,7 +15,6 @@
     ];
 
     const addNewTask = (newTaskContent) => {
-
         tasks.push({
             content: newTaskContent,
         });
@@ -25,11 +24,13 @@
 
     const removeTask = (index) => {
         tasks.splice(index, 1);
+
         render();
     };
 
     const toggleTaskDone = (index) => {
         tasks[index].done = !tasks[index].done;
+
         render();
     };
 
