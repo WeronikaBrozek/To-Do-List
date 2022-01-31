@@ -12,11 +12,13 @@ html {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header {
     padding: 40px 0px 15px 0px;
     max-width: 1000px;
+   
 }
 
 .headerContainer {
@@ -96,4 +98,9 @@ html {
 
 .internalContainer__header {
    margin: 0px;
+}
+
+.container__item {
+    text-align: left;
+    width: 100%;
 }
