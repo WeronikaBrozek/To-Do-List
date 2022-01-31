@@ -62,7 +62,7 @@
                     ${task.done ? "style=\"text-decoration: line-through\"" : ""}
                 >
                     <button class="container__buttons container__buttons--green js-done">✔</button>
-                    ${task.content}
+                    <span class="container__item">${task.content}</span>
                     <button class="container__buttons js-remove">🗑</button>
                 </li>
             `;
