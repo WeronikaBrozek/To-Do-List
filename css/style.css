@@ -5,3 +5,95 @@ html {
 *, ::after, ::before {
     box-sizing: inherit;
 }
+
+.body {
+    background-color: #ebe9e9;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    padding: 40px 0px 15px 0px;
+    max-width: 1000px;
+}
+
+.headerContainer {
+    max-width: 1000px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 30px;
+    margin-top: 0px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.internalContainer {
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    padding: 20px;
+    border-bottom: solid 1px #ebe9e9;
+}
+
+.internalContainer__list {
+    list-style: none;
+    padding: 0px;
+}
+
+.internalContainer__input {
+    height: 35px;
+    max-width: 800px;
+}
+
+.internalContainer__button {
+    height: 35px;
+    background-color: teal;
+    color: white;
+    border: none;
+}
+
+.container__buttons {
+    height: 27px;
+    width: 27px;
+    border: none;
+    background-color: #e21c43;
+    color: white;
+}
+
+.container__buttons--green {
+    background-color: green;
+}
+
+.internalContainer__listItem {
+    max-width: 1000;
+    padding: 10px 20px;
+    border-bottom: 2px solid  #ebe9e9;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container__list {
+    max-width: 1000px;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+.internalContainer__form {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.internalContainer__header {
+   margin: 0px;
+}
