@@ -9,15 +9,13 @@ html {
 .body {
     background-color: #ebe9e9;
     margin: auto;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
 }
 
 .header {
     padding: 40px 0px 15px 0px;
     max-width: 1000px;
+    font-weight: bold;
    
 }
 
@@ -42,7 +40,7 @@ html {
     display: flex;
     align-self: flex-start;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     border-bottom: solid 1px #ebe9e9;
 }
 
@@ -54,6 +52,9 @@ html {
 .internalContainer__input {
     height: 35px;
     max-width: 800px;
+    display: flex;
+    flex-grow: 1;
+    margin:5px;
 }
 
 .internalContainer__button {
@@ -61,6 +62,10 @@ html {
     background-color: teal;
     color: white;
     border: none;
+    font-weight: 400;
+    margin:5px;
+    padding: 5px;
+    min-width: fit-content;
 }
 
 .container__buttons {
@@ -77,7 +82,7 @@ html {
 
 .internalContainer__listItem {
     max-width: 1000;
-    padding: 10px 20px;
+    padding: 10px;
     border-bottom: 2px solid  #ebe9e9;
     text-align: left;
     display: flex;
@@ -87,20 +92,23 @@ html {
 .container__list {
     max-width: 1000px;
     width: 100%;
-    padding: 0px 20px;
+    padding: 0px 15px;
 }
 
 .internalContainer__form {
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
+    flex-grow: 1;
+    flex-wrap: wrap;
 }
 
 .internalContainer__header {
-   margin: 0px;
+   margin: 5px;
 }
 
 .container__item {
     text-align: left;
     width: 100%;
+    padding: 5px 15px;
 }
