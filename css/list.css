@@ -29,3 +29,7 @@
     width: 100%;
     padding: 5px 15px;
 }
+
+.container__item--done {
+    text-decoration: line-through;
+}
