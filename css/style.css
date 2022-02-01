@@ -1,29 +1,30 @@
 html {
     box-sizing: border-box;
-};
+}
 
 *, ::after, ::before {
     box-sizing: inherit;
-};
+}
 
 .body {
     background-color: #ebe9e9;
     margin: auto;
+    max-width: 1000px;
     font-family: 'Montserrat', sans-serif;
-};
+}
 
 .header {
     padding: 40px 0px 15px 0px;
     max-width: 1000px;
     font-weight: bold;
    
-};
+}
 
 .headerContainer {
     max-width: 1000px;
     margin-left: 30px;
     margin-bottom: 0px;
-};
+}
 
 .container {
     max-width: 1000px;
@@ -35,7 +36,7 @@ html {
     justify-content: center;
     flex-direction: column;
     box-shadow: 0px 0px 7px 2px #e3e3e3;
-};
+}
 
 .internalContainer {
     display: flex;
@@ -43,14 +44,14 @@ html {
     width: 100%;
     padding: 15px;
     border-bottom: solid 2px #ebe9e9;
-};
+}
 
 .listContainer {
     max-width: 1000px;
     width: 100%;
     padding: 0px 15px;
-};
+}
 
 .internalContainer__header {
    margin: 5px;
-};
+}

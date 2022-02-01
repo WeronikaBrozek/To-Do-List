@@ -1,7 +1,7 @@
 .listContainer__list {
     list-style: none;
     padding: 0px;
-};
+}
 
 .internalContainer__listItem {
     max-width: 1000;
@@ -10,7 +10,7 @@
     text-align: left;
     display: flex;
     justify-content: space-between;
-};
+}
 
 .container__buttons {
     height: 27px;
@@ -18,14 +18,14 @@
     border: none;
     background-color: #e21c43;
     color: white;
-};
+}
 
 .container__buttons--green {
     background-color: green;
-};
+}
 
 .container__item {
     text-align: left;
     width: 100%;
     padding: 5px 15px;
-};
+}

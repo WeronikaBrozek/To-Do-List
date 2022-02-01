@@ -4,7 +4,7 @@
     justify-content: space-between;
     flex-grow: 1;
     flex-wrap: wrap;
-};
+}
 
 .internalContainer__input {
     height: 35px;
@@ -12,7 +12,7 @@
     display: flex;
     flex-grow: 1;
     margin:5px;
-};
+}
 
 .internalContainer__button {
     height: 35px;
@@ -23,4 +23,4 @@
     margin:5px;
     padding: 5px;
     min-width: fit-content;
-};
+}
