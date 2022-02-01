@@ -4,7 +4,6 @@
 }
 
 .internalContainer__listItem {
-    max-width: 1000;
     padding: 10px;
     border-bottom: 2px solid  #ebe9e9;
     text-align: left;
@@ -13,8 +12,10 @@
 }
 
 .container__buttons {
-    height: 27px;
-    width: 27px;
+    min-height: 27px;
+    min-width: 27px;
+    max-height: 27px;
+    max-width: 27px;
     border: none;
     background-color: #e21c43;
     color: white;
@@ -32,4 +33,7 @@
 
 .container__item--done {
     text-decoration: line-through;
+}
+.container__buttons:active {
+    border: solid 1px #414141;
 }

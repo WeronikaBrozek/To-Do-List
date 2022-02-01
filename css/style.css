@@ -17,18 +17,16 @@ html {
     padding: 40px 0px 15px 0px;
     max-width: 1000px;
     font-weight: bold;
-   
 }
 
 .headerContainer {
     max-width: 1000px;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-bottom: 0px;
 }
 
 .container {
-    max-width: 1000px;
-    margin: 30px;
+    margin: 10px;
     margin-top: 0px;
     background-color: #fff;
     display: flex;
@@ -54,4 +52,5 @@ html {
 
 .internalContainer__header {
    margin: 5px;
+   font-size: 125%;
 }

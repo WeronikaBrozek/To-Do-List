@@ -24,3 +24,11 @@
     padding: 5px;
     min-width: fit-content;
 }
+
+.internalContainer__button:hover {
+    background-color: rgb(5, 145, 145);
+}
+
+.internalContainer__button:active {
+    border: solid 1px rgb(44, 44, 44);
+}

@@ -60,13 +60,13 @@
             htmlString += `
                 <li class="internalContainer__listItem">
                     <button class="container__buttons container__buttons--green js-done">${task.done ? "✔" : ""}</button>
-                    <span class="container__item ${task.done ? "container__item--done" : "" }">${task.content}</span>
+                    <span class="container__item ${task.done ? "container__item--done" : ""}">${task.content}</span>
                     <button class="container__buttons js-remove">🗑</button>
                 </li>
             `;
         };
 
-        
+
 
         document.querySelector(".js-tasks").innerHTML = htmlString;
 
@@ -84,7 +84,11 @@
         }
 
         addNewTask(newTaskContent);
+        document.querySelector(".js-newTask").value = "";
+        document.querySelector(".js-newTask").focus();
     };
+
+
 
     const init = () => {
 
