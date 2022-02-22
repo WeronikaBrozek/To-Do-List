@@ -1,4 +1,4 @@
-.internalContainer__form {
+.container__form {
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
@@ -10,13 +10,13 @@
 }
 
 @media (max-width: 767px) {
-    .internalContainer__form {
+    .container__form {
         display: flex;
         flex-direction: column;
     }
 }
 
-.internalContainer__input {
+.container__input {
     height: 35px;
     max-width: 800px;
     display: flex;
@@ -24,7 +24,7 @@
     margin:5px;
 }
 
-.internalContainer__button {
+.container__button {
     height: 35px;
     background-color: teal;
     color: white;
@@ -35,10 +35,10 @@
     min-width: fit-content;
 }
 
-.internalContainer__button:hover {
+.container__button:hover {
     background-color: rgb(5, 145, 145);
 }
 
-.internalContainer__button:active {
+.container__button:active {
     border: solid 1px rgb(44, 44, 44);
 }

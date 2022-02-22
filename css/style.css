@@ -36,21 +36,13 @@ html {
     box-shadow: 0px 0px 7px 2px #e3e3e3;
 }
 
-.internalContainer {
-    display: flex;
-    align-self: flex-start;
-    width: 100%;
-    padding: 15px;
-    border-bottom: solid 2px #ebe9e9;
-}
-
 .listContainer {
     max-width: 1000px;
     width: 100%;
     padding: 0px 15px;
 }
 
-.internalContainer__header {
+.container__header {
    margin: 5px;
    font-size: 125%;
     width: 100%;
