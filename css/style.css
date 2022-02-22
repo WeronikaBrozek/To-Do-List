@@ -13,13 +13,13 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-.header {
+.header__title {
     padding: 40px 0px 15px 0px;
     max-width: 1000px;
     font-weight: bold;
 }
 
-.headerContainer {
+.header {
     max-width: 1000px;
     margin-left: 10px;
     margin-bottom: 0px;
