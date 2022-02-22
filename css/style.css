@@ -14,7 +14,7 @@ html {
 }
 
 .header__title {
-    padding: 40px 0px 15px 0px;
+    padding: 40px 0px 5px 0px;
     max-width: 1000px;
     font-weight: bold;
 }
@@ -53,4 +53,7 @@ html {
 .internalContainer__header {
    margin: 5px;
    font-size: 125%;
+    width: 100%;
+    padding: 15px;
+    border-bottom: solid 2px #ebe9e9;
 }
