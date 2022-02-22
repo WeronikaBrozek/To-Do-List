@@ -52,13 +52,12 @@
         });
     };
 
-
     const render = () => {
         let htmlString = "";
 
         for (const task of tasks) {
             htmlString += `
-                <li class="internalContainer__listItem">
+                <li class="container__listItem">
                     <button class="container__buttons container__buttons--green js-done">${task.done ? "✔" : ""}</button>
                     <span class="container__item ${task.done ? "container__item--done" : ""}">${task.content}</span>
                     <button class="container__buttons js-remove">🗑</button>
@@ -66,13 +65,10 @@
             `;
         };
 
-
-
         document.querySelector(".js-tasks").innerHTML = htmlString;
 
         bindEvenets();
     };
-
 
     const onFormSubmit = (event) => {
         event.preventDefault();
@@ -87,8 +83,6 @@
         document.querySelector(".js-newTask").value = "";
         document.querySelector(".js-newTask").focus();
     };
-
-
 
     const init = () => {
 
