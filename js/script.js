@@ -12,13 +12,6 @@
         },
     ];
 
-    // const addNewTask = (newTaskContent) => {
-    //     tasks.push({
-    //         content: newTaskContent,
-    //     });
-
-    //     render();
-    // };
 
     // const toggleHideDoneTasks = () => {
     //     hideDoneTasks = !hideDoneTasks;
@@ -38,12 +31,6 @@
     
         render();
     };
-
-    // const removeTask = (index) => {
-    //     tasks.splice(index, 1);
-
-    //     render();
-    // };
 
     const removeTask = (taskIndex) => {
         tasks = [
