@@ -49,3 +49,9 @@ html {
     padding: 15px;
     border-bottom: solid 2px #ebe9e9;
 }
+
+.filterSection__header {
+    margin: 5px;
+   font-size: 125%;
+    width: 100%;
+}

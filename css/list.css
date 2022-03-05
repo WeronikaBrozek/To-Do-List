@@ -38,3 +38,16 @@
     border: solid 1px #414141;
 }
 
+.filtersSection {
+    width: 100%;
+    padding: 15px;
+    border-bottom: solid 2px #ebe9e9;
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .filtersSection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

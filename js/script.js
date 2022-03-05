@@ -14,7 +14,7 @@
 
     const toggleHideDoneTasks = () => {
         hideDoneTasks = !hideDoneTasks;
-        
+        console.log(hideDoneTasks);
         render;
 
     };
@@ -97,12 +97,6 @@
 
         
     };
-
-    // const renderButtons = () =>{}; 
-
-    // const bindButtonEvents = () => {
-    //     if
-    // };
 
     const render = () => {
         renderTasks();
