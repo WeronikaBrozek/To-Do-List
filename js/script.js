@@ -14,7 +14,6 @@
 
     const toggleHideDoneTasks = () => {
         hideDoneTasks = !hideDoneTasks;
-        console.log(hideDoneTasks);
         render();
 
     };
@@ -47,7 +46,7 @@
         render();
     };
 
-    const bindEvenets = () => {
+    const bindEvents = () => {
         const removeButtons = document.querySelectorAll(".js-remove");
 
         removeButtons.forEach((removeButton, index) => {
@@ -102,7 +101,7 @@
         renderTasks();
         renderButtons();
 
-        bindEvenets();
+        bindEvents();
         bindButtonsEvents();
     };
 
@@ -112,11 +111,9 @@
 
         if (!tasks.length) {
             buttonElement.innerHTML = "";
-            console.log(tasks);
             return;
         }
 
-        console.log("task list not empty");
 
         buttonElement.innerHTML = `
                 <button class="form__button js-hideDoneTasks">${ hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
