@@ -51,7 +51,7 @@
 }
 
 .form__button:disabled {
-    color: rgb(136, 136, 136);
+    color: rgb(179, 179, 179);
 }
 
 .form__buttons {
