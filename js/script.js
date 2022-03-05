@@ -15,7 +15,7 @@
     const toggleHideDoneTasks = () => {
         hideDoneTasks = !hideDoneTasks;
         console.log(hideDoneTasks);
-        render;
+        render();
 
     };
 
@@ -85,7 +85,7 @@
 
         for (const task of tasks) {
             htmlString += `
-                <li class="container__listItem">
+                <li class="container__listItem${(task.done && hideDoneTasks) ? " container__listItem--hidden" : ""}">
                     <button class="container__buttons container__buttons--green js-done">${task.done ? "✔" : ""}</button>
                     <span class="container__item ${task.done ? "container__item--done" : ""}">${task.content}</span>
                     <button class="container__buttons js-remove">🗑</button>
@@ -120,7 +120,7 @@
 
         buttonElement.innerHTML = `
                 <button class="form__button js-hideDoneTasks">${ hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
-                <button class="form__button js-markAllTasksDone"${(tasks.every(({done}) => done)) ? "disabled" : ""}>Ukończ wszystkie</button>
+                <button class="form__button js-markAllTasksDone"${(tasks.every(({done}) => done)) ? " disabled" : ""}>Ukończ wszystkie</button>
             `;
 
     };

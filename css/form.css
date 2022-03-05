@@ -50,6 +50,10 @@
     color: teal;
 }
 
+.form__button:disabled {
+    color: rgb(136, 136, 136);
+}
+
 .form__buttons {
     display: flex;
 }
