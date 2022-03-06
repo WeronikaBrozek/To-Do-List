@@ -1,9 +1,9 @@
-.listContainer__list {
+.listSection__list {
     list-style: none;
     padding: 0px;
 }
 
-.container__listItem {
+.section__listItem {
     padding: 10px;
     border-bottom: 2px solid  #ebe9e9;
     text-align: left;
@@ -11,7 +11,7 @@
     justify-content: space-between;
 }
 
-.container__buttons {
+.section__buttons {
     min-height: 27px;
     min-width: 27px;
     max-height: 27px;
@@ -22,32 +22,32 @@
     transition: 0.5s;
 }
 
-.container__buttons:hover {
+.section__buttons:hover {
     background-color: #eb3b5e;
 }
 
-.container__buttons--green {
+.section__buttons--green {
     background-color: green;
     transition: 0.5s;
 }
 
-.container__buttons--green:hover {
+.section__buttons--green:hover {
     background-color: rgb(3, 153, 3);
 }
-.container__item {
+.section__item {
     text-align: left;
     width: 100%;
     padding: 5px 15px;
 }
 
-.container__item--done {
+.section__item--done {
     text-decoration: line-through;
 }
-.container__buttons:active {
+.section__buttons:active {
     border: solid 1px #414141;
 }
 
-.filtersSection {
+.filterSection {
     width: 100%;
     padding: 15px;
     border-bottom: solid 2px #ebe9e9;
@@ -56,12 +56,12 @@
 }
 
 @media (max-width: 767px) {
-    .filtersSection {
+    .filterSection {
         display: flex;
         flex-wrap: wrap;
     }
 }
 
-.container__listItem--hidden {
+.section__listItem--hidden {
     display: none;
 }

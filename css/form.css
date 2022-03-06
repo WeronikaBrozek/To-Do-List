@@ -1,4 +1,4 @@
-.container__form {
+.section__form {
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
@@ -10,13 +10,13 @@
 }
 
 @media (max-width: 767px) {
-    .container__form {
+    .section__form {
         display: flex;
         flex-direction: column;
     }
 }
 
-.container__input {
+.section__input {
     height: 35px;
     max-width: 800px;
     display: flex;
@@ -24,7 +24,7 @@
     margin:5px;
 }
 
-.container__button {
+.section__button {
     height: 35px;
     background-color: teal;
     color: white;
@@ -37,12 +37,12 @@
     
 }
 
-.container__button:hover {
+.section__button:hover {
     background-color: rgb(5, 145, 145);
     transform: scale(1.1);
 }
 
-.container__button:active {
+.section__button:active {
     border: solid 1px rgb(44, 44, 44);
     background-color: rgb(38, 187, 187);
 }
