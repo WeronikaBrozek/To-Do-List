@@ -21,10 +21,17 @@
     color: white;
 }
 
+.container__buttons:hover {
+    background-color: #eb3b5e;
+}
+
 .container__buttons--green {
     background-color: green;
 }
 
+.container__buttons--green:hover {
+    background-color: rgb(3, 153, 3);
+}
 .container__item {
     text-align: left;
     width: 100%;
@@ -43,6 +50,7 @@
     padding: 15px;
     border-bottom: solid 2px #ebe9e9;
     display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 767px) {

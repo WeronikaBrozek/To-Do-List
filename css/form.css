@@ -50,6 +50,10 @@
     color: teal;
 }
 
+.form__button:hover {
+    color: rgb(13, 156, 156);
+}
+
 .form__button:disabled {
     color: rgb(179, 179, 179);
 }
@@ -63,5 +67,15 @@
         display: flex;
         flex-direction: column;
         padding: 10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .form__button {
+        border: none;
+        background: none;
+        min-width: 160px;
+        color: teal;
+        margin: 5px;
     }
 }
