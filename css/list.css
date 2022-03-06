@@ -19,6 +19,7 @@
     border: none;
     background-color: #e21c43;
     color: white;
+    transition: 0.5s;
 }
 
 .container__buttons:hover {
@@ -27,6 +28,7 @@
 
 .container__buttons--green {
     background-color: green;
+    transition: 0.5s;
 }
 
 .container__buttons--green:hover {

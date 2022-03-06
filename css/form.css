@@ -33,14 +33,18 @@
     margin:5px;
     padding: 5px;
     min-width: fit-content;
+    transition: 1s;
+    
 }
 
 .container__button:hover {
     background-color: rgb(5, 145, 145);
+    transform: scale(1.1);
 }
 
 .container__button:active {
     border: solid 1px rgb(44, 44, 44);
+    background-color: rgb(38, 187, 187);
 }
 
 .form__button {
@@ -52,6 +56,11 @@
 
 .form__button:hover {
     color: rgb(13, 156, 156);
+}
+
+.form__button:active {
+    color: rgb(35, 194, 194);
+    border: solid 1px rgb(41, 41, 41);
 }
 
 .form__button:disabled {
