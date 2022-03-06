@@ -1,4 +1,4 @@
-.listSection__list {
+.section__list {
     list-style: none;
     padding: 0px;
 }
@@ -11,7 +11,7 @@
     justify-content: space-between;
 }
 
-.section__buttons {
+.section__itemButtons {
     min-height: 27px;
     min-width: 27px;
     max-height: 27px;
@@ -22,32 +22,35 @@
     transition: 0.5s;
 }
 
-.section__buttons:hover {
+.section__itemButtons:hover {
     background-color: #eb3b5e;
 }
 
-.section__buttons--green {
+.section__itemButtons--status {
     background-color: green;
     transition: 0.5s;
 }
 
-.section__buttons--green:hover {
+.section__itemButtons--status:hover {
     background-color: rgb(3, 153, 3);
 }
-.section__item {
+
+.section__itemButtons:active {
+    border: solid 1px #414141;
+}
+
+.section__content {
     text-align: left;
     width: 100%;
     padding: 5px 15px;
 }
 
-.section__item--done {
+.section__content--done {
     text-decoration: line-through;
 }
-.section__buttons:active {
-    border: solid 1px #414141;
-}
 
-.filterSection {
+
+.section__filters {
     width: 100%;
     padding: 15px;
     border-bottom: solid 2px #ebe9e9;
@@ -56,7 +59,7 @@
 }
 
 @media (max-width: 767px) {
-    .filterSection {
+    .section__filters {
         display: flex;
         flex-wrap: wrap;
     }
@@ -65,3 +68,53 @@
 .section__listItem--hidden {
     display: none;
 }
+
+.section__container {
+    max-width: 1000px;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+
+.section__button {
+    border: none;
+    background: none;
+    min-width: 160px;
+    color: teal;
+}
+
+.section__button:hover {
+    color: rgb(13, 156, 156);
+}
+
+.section__button:active {
+    color: rgb(35, 194, 194);
+    border: solid 1px rgb(41, 41, 41);
+}
+
+.section__button:disabled {
+    color: rgb(179, 179, 179);
+}
+
+@media (max-width: 767px) {
+    .section__button {
+        border: none;
+        background: none;
+        min-width: 160px;
+        color: teal;
+        margin: 5px;
+    }
+}
+
+.section__buttons {
+    display: flex;
+}
+
+@media (max-width: 767px) {
+    .section__buttons {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+}
+

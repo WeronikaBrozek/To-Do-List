@@ -36,12 +36,6 @@ html {
     box-shadow: 0px 0px 7px 2px #e3e3e3;
 }
 
-.listSection {
-    max-width: 1000px;
-    width: 100%;
-    padding: 0px 15px;
-}
-
 .section__header {
    margin: 5px;
    font-size: 125%;

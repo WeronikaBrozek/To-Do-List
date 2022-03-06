@@ -28,18 +28,19 @@
     </header>
     <section class="section">
         <h2 class="section__header">Dodaj nowe zadanie</h2>
-        <form class="section__form js-form">
-            <input class="section__input js-newTask" autofocus placeholder="Co jest do zrobienia?">
-            <button class="section__button">Dodaj zadanie</button>
+        <form class="form js-form">
+            <input class="form__input js-newTask" autofocus placeholder="Co jest do zrobienia?">
+            <button class="form__button">Dodaj zadanie</button>
         </form>
     </section>
+
     <section class="section">
-        <div class="filterSection">
+        <div class="section__filters">
             <h2 class="section__header--noBorder">Lista zadań</h2>
-            <span class=" form__buttons js-formButtons"></span>
+            <span class="section__buttons js-listButtons"></span>
         </div>
-        <div class="listSection">
-            <ul class="listSection__list js-tasks"></ul>
+        <div class="section__container">
+            <ul class="section__list js-tasks"></ul>
         </div>
     </section>
 </body>

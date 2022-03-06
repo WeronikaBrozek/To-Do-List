@@ -85,9 +85,9 @@
         for (const task of tasks) {
             htmlString += `
                 <li class="section__listItem${(task.done && hideDoneTasks) ? " section__listItem--hidden" : ""}">
-                    <button class="section__buttons section__buttons--green js-done">${task.done ? "✔" : ""}</button>
-                    <span class="section__item ${task.done ? "section__item--done" : ""}">${task.content}</span>
-                    <button class="section__buttons js-remove">🗑</button>
+                    <button class="section__itemButtons section__itemButtons--status js-done">${task.done ? "✔" : ""}</button>
+                    <span class="section__content ${task.done ? "section__content--done" : ""}">${task.content}</span>
+                    <button class="section__itemButtons js-remove">🗑</button>
                 </li>
             `;
         };
@@ -107,7 +107,7 @@
 
 
     const renderButtons = () => {
-        const buttonElement = document.querySelector(".js-formButtons");
+        const buttonElement = document.querySelector(".js-listButtons");
 
         if (!tasks.length) {
             buttonElement.innerHTML = "";
@@ -116,8 +116,8 @@
 
 
         buttonElement.innerHTML = `
-                <button class="form__button js-hideDoneTasks">${ hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
-                <button class="form__button js-markAllTasksDone"${(tasks.every(({done}) => done)) ? " disabled" : ""}>Ukończ wszystkie</button>
+                <button class="section__button js-hideDoneTasks">${ hideDoneTasks ? "Pokaż" : "Ukryj"} ukończone</button>
+                <button class="section__button js-markAllTasksDone"${(tasks.every(({done}) => done)) ? " disabled" : ""}>Ukończ wszystkie</button>
             `;
 
     };

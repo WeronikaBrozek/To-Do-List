@@ -1,4 +1,4 @@
-.section__form {
+.form {
     max-width: 1000px;
     display: flex;
     justify-content: space-between;
@@ -10,13 +10,13 @@
 }
 
 @media (max-width: 767px) {
-    .section__form {
+    .form {
         display: flex;
         flex-direction: column;
     }
 }
 
-.section__input {
+.form__input {
     height: 35px;
     max-width: 800px;
     display: flex;
@@ -24,7 +24,7 @@
     margin:5px;
 }
 
-.section__button {
+.form__button {
     height: 35px;
     background-color: teal;
     color: white;
@@ -37,54 +37,12 @@
     
 }
 
-.section__button:hover {
+.form__button:hover {
     background-color: rgb(5, 145, 145);
     transform: scale(1.1);
 }
 
-.section__button:active {
+.form__button:active {
     border: solid 1px rgb(44, 44, 44);
     background-color: rgb(38, 187, 187);
-}
-
-.form__button {
-    border: none;
-    background: none;
-    min-width: 160px;
-    color: teal;
-}
-
-.form__button:hover {
-    color: rgb(13, 156, 156);
-}
-
-.form__button:active {
-    color: rgb(35, 194, 194);
-    border: solid 1px rgb(41, 41, 41);
-}
-
-.form__button:disabled {
-    color: rgb(179, 179, 179);
-}
-
-.form__buttons {
-    display: flex;
-}
-
-@media (max-width: 767px) {
-    .form__buttons {
-        display: flex;
-        flex-direction: column;
-        padding: 10px;
-    }
-}
-
-@media (max-width: 767px) {
-    .form__button {
-        border: none;
-        background: none;
-        min-width: 160px;
-        color: teal;
-        margin: 5px;
-    }
 }
