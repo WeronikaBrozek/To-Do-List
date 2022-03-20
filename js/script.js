@@ -15,7 +15,6 @@
     const toggleHideDoneTasks = () => {
         hideDoneTasks = !hideDoneTasks;
         render();
-
     };
 
     const toggleMarkAllTasksDone = () => {
